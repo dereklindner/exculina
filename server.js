@@ -15,7 +15,7 @@ http.createServer(function(request, response) {
   response.write("\
   <!doctype html>\
 <html>\
-  <head>\    
+  <head>\
     <link href=\"http://twitter.github.io/bootstrap/assets/css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\
   </head>\
   <body>\
