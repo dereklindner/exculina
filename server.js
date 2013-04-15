@@ -16,6 +16,7 @@ http.createServer(function(request, response) {
   <!doctype html>\
 <html>\
   <head>\
+    <title>Ex Culina Bruncherator</title>\
     <link href=\"http://twitter.github.io/bootstrap/assets/css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\
   </head>\
   <body>\
@@ -23,7 +24,7 @@ http.createServer(function(request, response) {
       <h4>What do you want for brunch?</h4><h2>");
   response.write(brunch());
   response.write("\
-    </h2><p><h4><a href=\"/\">Try again.</a></h4></div>\
+    </h2><p><h4><a href=\"/\">Make another.</a></h4></div>\
   </body>\
 </html>");
   response.end();
